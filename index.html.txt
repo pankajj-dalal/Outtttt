@@ -1,0 +1,41 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Someone wants to ask you something</title>
+  <style>
+    body {
+      background-color: #fffbe7;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    button {
+      font-size: 1.2rem;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Someone wants to ask you something...</h1>
+  <button onclick="openSurprise()">Click here</button>
+
+  <script>
+    function openSurprise() {
+      window.open window.open('https://pankajj-dalal.github.io/outttt/date.html', '_blank');
+    }
+  </script>
+</body>
+</html>
